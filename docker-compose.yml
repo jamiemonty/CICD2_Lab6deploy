@@ -1,6 +1,6 @@
 services:
   service_a:
-    image: ghcr.iodocker pull ghcr.io/jamiemonty/cicd2_lab6a/service_a:latest
+    image: ghcr.io/jamiemonty/cicd2_lab6a/service_a:latest
     ports:
       - "8001:8000"
     networks:
